@@ -1,0 +1,39 @@
+{
+  "name": "@byhealth/eslint-config",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "pengxp <pengxp@by-health.com>",
+  "homepage": "https://github.com/BY-HealthFED/build-tools#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BY-HealthFED/build-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BY-HealthFED/build-tools/issues"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/parser": "^5.40.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.2.0",
+    "typescript": ">=2.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "typescript": "^4.8.4"
+  },
+  "keywords": [
+    "config",
+    "eslint"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

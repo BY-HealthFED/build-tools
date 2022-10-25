@@ -1,0 +1,23 @@
+{
+  "name": "@byhealth/prettier-config",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "pengxp <pengxp@by-health.com>",
+  "homepage": "https://github.com/BY-HealthFED/build-tools#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BY-HealthFED/build-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BY-HealthFED/build-tools/issues"
+  },
+  "main": "index.js",
+  "keywords": [
+    "config",
+    "prettier"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

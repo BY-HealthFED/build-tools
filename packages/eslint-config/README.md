@@ -1,0 +1,1 @@
+# @byhealth/eslint-config

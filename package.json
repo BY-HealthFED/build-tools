@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "name": "@byhealth/build-tools",
+  "scripts": {
+    "build": "pnpm run -r --stream build"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@byhealth/eslint-config": "workspace:*",
+    "@byhealth/prettier-config": "workspace:*",
+    "eslint": "^8.26.0",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "prettier-package-json": "^2.7.0",
+    "typescript": "^4.8.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@byhealth/eslint-config"
+    ]
+  },
+  "lint-staged": {
+    "package.json": [
+      "prettier-package-json --write"
+    ],
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix"
+    ]
+  },
+  "packageManager": "pnpm@7.14.0",
+  "prettier": "@byhealth/prettier-config"
+}
